@@ -1,0 +1,49 @@
+﻿RON_start_techs = yes RON_focus_trees = yes 
+capital = 684
+
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1910.1.1"
+	lection_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 100
+}
+
+
+1980.1.1 = {
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1980.1.1"
+	lection_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 100
+}
+
+create_country_leader = {
+	name = "David W. Panuelo"
+	picture = "CW/David_W_Panuelo.dds"
+	expire = "2030.1.1"
+	ideology = conservatism
+	traits = { }
+}
+
+}
+
+1990.1.1 = {
+
+create_country_leader = {
+	name = "John Haglelgam"
+	picture = "CW/Micronesia_JohnHaglelgam.dds"
+	expire = "2030.1.1"
+	ideology = conservatism
+	traits = { }
+}
+
+}

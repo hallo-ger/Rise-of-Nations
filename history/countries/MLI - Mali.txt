@@ -1,0 +1,62 @@
+﻿RON_start_techs = yes RON_focus_trees = yes 
+capital = 556
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 25
+	fascism = 20
+	communism = 5
+	neutrality = 50
+}
+
+1960.1.1 = {
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1960.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 100
+}
+
+create_country_leader = {
+	name = "Modibo Keita"
+	picture = "CW/Mali_Modibo_Keita.dds"
+	expire = "2000.1.1"
+	ideology = pan_africanism
+	traits = { }
+}
+
+}
+
+1970.1.1 = {
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1970.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 100
+}
+
+
+create_country_leader = {
+	name = "Moussa Traore"
+	picture = "CW/Mali_MoussaTraore.dds"
+	expire = "2000.1.1"
+	ideology = lw_militarism
+	traits = { }
+}
+
+}

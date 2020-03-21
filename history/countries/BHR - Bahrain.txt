@@ -1,0 +1,40 @@
+﻿RON_start_techs = yes RON_focus_trees = yes 
+capital = 875
+
+#oob = "BHR_1936"
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascism = 6
+	neutrality = 47
+	democratic = 40
+	communism = 7
+}
+
+1980.1.1 = {
+
+create_country_leader = {
+	name = "Isa Bin Salmon AlKhalifa"
+	picture = "CW/Bahrain_IsaBinSalmonAlKhalifa.dds"
+	expire = "2030.1.1"
+	ideology = constitutional_monarchism
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Isa Bin Salmon AlKhalifa"
+	picture = "CW/Bahrain_IsaBinSalmonAlKhalifa.dds"
+	expire = "2030.1.1"
+	ideology = despotism
+	traits = { }
+}
+
+}

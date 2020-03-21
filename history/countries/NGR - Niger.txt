@@ -1,0 +1,83 @@
+﻿RON_start_techs = yes RON_focus_trees = yes 
+capital = 781
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 25
+	fascism = 20
+	communism = 5
+	neutrality = 50
+}
+
+1960.1.1 = {
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1960.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 100
+}
+
+create_country_leader = {
+	name = "Hamani Diori"
+	picture = "CW/Niger_Hamani_Diori.dds"
+	expire = "2000.1.1"
+	ideology = pan_africanism
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Seyni Kountche"
+	picture = "CW/Niger_SeyniKountche.dds"
+	expire = "2030.1.1"
+	ideology = rw_militarism
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Ali Saibou"
+	picture = "CW/Niger_Ali_Saibou.dds"
+	expire = "2030.1.1"
+	ideology = conservatism
+	traits = { }
+}
+
+}
+
+1980.1.1 = {
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1980.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascism = 100
+}
+
+
+}
+
+1990.1.1 = {
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1990.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 100
+}
+
+}
